@@ -1,0 +1,17 @@
+POST http://localhost:8787/api/customer
+Content-Type: application/json
+
+{
+  "firstName": "Jozef",
+  "lastName": "Stalout"
+}
+
+###
+GET http://localhost:8787/api/customer
+Accept: application/json
+
+###
+GET http://localhost:8787/api/customer/3/products
+Accept: application/json
+
+###
